@@ -1,0 +1,13 @@
+$primary:orange;
+$warning:yellow;
+$danger:darkred;
+$modal-backdrop-bg:lightblue;
+@import"../node_modules/bootstrap/scss/functions";
+@import"../node_modules/bootstrap/scss/variables";
+$enerio-theme-colors:(
+    favorite1: purple,
+    favorite2: brown
+);
+$theme-colors: map-merge($enerio-theme-colors, $theme-colors);
+
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
